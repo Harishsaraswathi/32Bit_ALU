@@ -1,4 +1,4 @@
-# 32Bit_ALU Simulation
+# Exp-3:32Bit_ALU Simulation
 
 # Aim: 
 
@@ -17,6 +17,8 @@ The ALU will take in two 32-bit values, and control line. An Arithmetic unit doe
 ![image](https://github.com/user-attachments/assets/e574788c-253f-46da-8468-298fe2844f7a)
 
 ### Fig 1 : Block Diagram of 32 Bit ALU 
+
+![Screenshot (308)](https://github.com/user-attachments/assets/3f06bb14-b09b-4eed-99bf-d735416d67c9)
 
 ## Creating a Work space :
 
@@ -62,6 +64,8 @@ After this you can see the window like below
 
 ### Fig 2: Invoke the Cadence Environment
 
+![Screenshot (309)](https://github.com/user-attachments/assets/567aa453-0e0c-4abb-9a69-4dcf23dc10fd)
+
 To Launch Simulation tool 
 
 •linux:/> nclaunch -new& // “-new” option is used for invoking NCVERILOG for the first time for any design 
@@ -75,11 +79,15 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ### Fig 3: Setting Multi-step simulation
 
+![Screenshot (313)](https://github.com/user-attachments/assets/03695250-a1e7-4095-80a0-da0e65e3a15b)
+
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
 
 ### Fig 4:cds.lib file Creation
+
+![Screenshot (312)](https://github.com/user-attachments/assets/64145ee9-f700-48f3-8504-2221ba9af2bb)
 
 Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
 
@@ -89,9 +97,9 @@ We are simulating verilog design without using any libraries
 
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/d5202b97-ee5c-4e0e-9eaf-5f3fa733e546)
-
 ### Fig 5: Selection of Don’t include any libraries
+
+![Screenshot (314)](https://github.com/user-attachments/assets/ac37e630-0d9e-4510-8722-6acc6f43e13d)
 
 A ‘NCLaunch window’ appears as shown in figure below
 
@@ -102,6 +110,8 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 6: Nclaunch Window
+
+![Screenshot (315)](https://github.com/user-attachments/assets/6ef57cba-aad9-4207-ba78-913b3fccd139)
 
 ## Step 1: Compilation:
 
@@ -126,6 +136,8 @@ Left side select the file and in Tools : launch verilog compiler with current se
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ### Fig 7: Compiled database in worklib
+
+![Screenshot (316)](https://github.com/user-attachments/assets/38233371-d32e-42bb-a112-d9edd679f54e)
 
 After compilation it will come under worklib you can see in right side window
 
@@ -161,6 +173,8 @@ After elaboration the file will come under snapshot. Select the test bench and s
 
 ## Fig 8: Elaboration Launch Option
 
+![Screenshot (317)](https://github.com/user-attachments/assets/62a1ca7a-4e95-4926-803a-c780cf8972b3)
+
 ## Step 3: Simulation: 
 
 – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -175,7 +189,11 @@ Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot (318)](https://github.com/user-attachments/assets/bbb0bb8e-a57d-4270-873e-a879723289b7)
+
 ## Fig 10:Simulation Waveform Window
+
+![Screenshot (319)](https://github.com/user-attachments/assets/99065e47-ea97-4e1f-8e69-8adec1715f3f)
 
 ## Fig 11:Simulation Waveform Window
 
